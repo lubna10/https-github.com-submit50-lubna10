@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            #link{
+                color:green;
+                text-align: right;           
+            }
+            .box1{
+                position: absolute;
+                top: 60%;
+                left:45%;
+                transform: translate(-50%,-50%);
+            }
+            .box2{
+                position: absolute;
+                top: 60%;
+                left:55%;
+                transform: translate(-50%,-50%);
+            }
+            #ip1 {
+                position: absolute;
+                top: 50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                 border-color: gray;
+                 border-radius: 25px;
+                 padding: 20px; 
+                 width: 400px;
+                 height: 15px;     
+                  }
+        </style>
+    </head>
+    <body>
+          <div id="link">
+                <a href="image search.html">Image Search</a>
+                <a href="advanced search.html">Advanced Search</a>
+          </div>
+         <div>
+          <form action="https://google.com/search">
+            <input type="text" name="q" id="ip1"><br>
+            <input type="submit"  value="Google Search" class="box1">
+            <input type="submit" name="btnI" value="I’m Feeling Lucky" class="box2">
+        </form>
+        </div>
+    </body>
+</html>
